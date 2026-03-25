@@ -1,0 +1,17 @@
+# student_details.py
+# Created by Saswin D (ECE)
+
+def get_student_details():
+    print("Enter Student Details\n")
+    
+    name = input("Name: ")
+    roll_no = input("Roll Number: ")
+    department = input("Department: ")
+    
+    print("\n--- Student Details ---")
+    print("Name:", name)
+    print("Roll No:", roll_no)
+    print("Department:", department)
+
+# Run the function
+get_student_details()
